@@ -1,0 +1,72 @@
+.clb-icon-reveal-card {
+     background: #eee;
+     text-align: center;
+     padding: 20px;
+     padding-top: 40px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     transition: all ease-in-out .35s;
+     will-change: transform;
+     border-radius: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.clb-icon-reveal-card.foreground-text-light, .clb-icon-reveal-card.foreground-text-light a, .clb-icon-reveal-card.foreground-text-light h3 {
+     color: #fff;
+}
+
+.clb-icon-reveal-card.foreground-text-dark, .clb-icon-reveal-card.foreground-text-dark a, .clb-icon-reveal-card.foreground-text-dark h3 {
+     color: #222;
+}
+
+.clb-icon-reveal-card a {
+     color: #222;
+     text-decoration: none;
+     border-bottom: none;
+}
+
+.clb_card__title {
+     margin-top: 20px;
+}
+
+.clb-icon-reveal-card:hover {
+     cursor: pointer !important;
+     transform: translate3d(0,0,0);
+}
+
+.clb-icon-reveal-card:hover a {
+     text-decoration: none;
+     border-bottom: none;
+     background: transparent;
+}
+
+.clb-icon-reveal-card .clb-card-icon {
+     color: var(--clb-accent-color);
+}
+
+.clb-icon-reveal-card.clb-selected-icon-card {
+     border: 2px solid var(--clb-accent-color);
+     border-bottom: 0;
+}
+
+.clb-icon-reveal-card.clb-unselected {
+    border: 2px solid #eee !important;
+    transform: translate3d(0,-20px,0);
+}
+
+.clb-icon-reveal-card-contents {
+     background: #eee;
+     padding: 30px;
+     margin-top: -22px;
+}
+
+.clb-icon-reveal-card-contents.clb-fulltext-selected {
+     border: 2px solid var(--clb-accent-color);
+}
+
+
+.clb-hide {
+     display: none;
+}

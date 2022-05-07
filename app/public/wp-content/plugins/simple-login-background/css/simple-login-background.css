@@ -1,0 +1,96 @@
+
+:root {
+    --black: 176deg 100% 3%;
+    --white: 0deg 0% 100%;
+    --light-gray: 0deg 0% 94%;
+    --medium-gray: 0deg 0% 88%;
+    --icecap-blue: 189deg 68% 65%;
+    --blue-spruce-green: 175deg 100% 19%;
+    --sunset-orange: 13deg 96% 53%;
+    --bumblebee-yellow: 54deg 100% 49%;
+    --mossy-green: 110deg 48% 61%;
+    --blossom-pink: 347deg 65% 84%;
+
+	--primary: var(--blue-spruce-green);
+	--secondary: var(--icecap-blue);
+
+
+}
+
+
+
+#login {
+    padding: 4% 0 0;
+    font-family: degular, sans-serif;
+}
+
+body.login div#login h1 a {
+    background-image: none;
+    background-size: 0 0;
+    height: 0;
+    margin: 0 auto 0;
+    width: 0;
+}
+
+#custom-login-title {
+	color: transparent;
+     min-height: 200px;
+     margin-bottom: 0;
+     background: url('/wp-content/uploads/2021/11/EarthShare-North-Carolina-Logo-White-horizontal.png');
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.login #backtoblog a, .login #nav a {
+	color: #fff;
+}
+
+.login form {
+     background: #FFF6A2;  /**/
+     border: 3px solid #FCE300;
+     border-radius: 5px;
+     -webkit-backdrop-filter: blur(6px);
+     backdrop-filter: blur(6px);
+}
+
+/* Customize Link Hover Color ---- OPTIONAL
+.login #backtoblog a:hover, .login #nav a:hover {
+	color: #ea7400;
+}*/
+
+body.login {
+     background: radial-gradient(circle at 50% 50%, #6ad1e3, #64cbdb, #54bac6, #40a5ab, #2b8d8e, #187874, #066962, #00635b);
+     font-family: degular, sans-serif;
+     font-size: 16px;
+}
+
+.login label {
+     font-size: 16px;
+}
+
+.login #login_error, .login .message, .login .success {
+     font-family: degular, sans-serif;
+     border-left: 4px solid hsl( var(--sunset-orange) / 1);
+     padding: 16px;
+     margin-left: 0;
+     margin-bottom: 20px;
+     background-color: #fff;
+     border-radius: 3px;
+     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+}
+
+.wp-core-ui .button-primary {
+     font-size: 16px;
+    background: hsl( var(--primary) / 1 );
+    border-color: hsl( var(--primary) / 1 );
+}
+
+.wp-core-ui .button-primary:hover {
+    background: hsl( var(--black) / 1 );
+    border-color: hsl( var(--black) / 1 );
+}
+
+.login #backtoblog, .login #nav {
+     font-size: 14px;
+}
